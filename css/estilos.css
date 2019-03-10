@@ -23,6 +23,11 @@ h1 strong
     color: red;
 }
 
+.logo
+{
+    position: absolute;
+}
+
 .project-details
 {
     width: 500px;
@@ -34,6 +39,7 @@ h1 strong
     background-image: url('../images/image.png');
     background-size: 200px 200px;
     background-repeat: no-repeat;
+    background-position: absolute;
     background-position-x: 1200px;
     background-position-y: 25px;
     background-color: #39393d;
