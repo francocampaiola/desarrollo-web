@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -23,29 +24,40 @@ h1 strong
     color: red;
 }
 
-.logo
+.portfolio
 {
-    position: absolute;
+    background: #fafafa;
 }
-
-.project-details
-{
-    width: 500px;
-}
-
 .hero
 {
     height: 250px;
+    margin-bottom: 0;
     background-image: url('../images/image.png');
     background-size: 200px 200px;
     background-repeat: no-repeat;
     background-position: absolute;
-    background-position-x: 1200px;
+    background-position-x: right;
     background-position-y: 25px;
     background-color: #39393d;
+    display: flex;
+    align-items: center;
+}
+
+.project
+{
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
 }
 
 .project-imageContainer
+{
+    width: 500px;
+}
+
+.project-details
 {
     width: 500px;
 }
@@ -54,10 +66,78 @@ h1 strong
 {
     background-color: #626262;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.header ol
+{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a
+{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.menu
+{
+    height: inherit;
+}
+
+ol, ul
+{
+    margin: 0;
+    list-style: none;
+}
+
+figure
+{
+    margin: 0;
 }
 
 .header a
 {
     color: white;
     text-decoration: none;
+}
+
+.footer
+{
+    background-color: #626262;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img
+{
+    vertical-align: middle;
+}
+
+.footer p
+{
+    margin-left: 25px;
+    margin-right: 25px;
 }
