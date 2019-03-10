@@ -7,12 +7,12 @@
         <link rel="stylesheet" href="css/estilos.css" />
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="images/fc-png-1.png" alt="Logo de Independiente" width="275"/>
                 </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a class="enlace" href="#portafolio">Portafolio</a>
@@ -26,42 +26,46 @@
                 </ol>
             </nav>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! Soy <strong>Franco Campaiola</strong> <br> Programador en curso <br> con ganas de seguir aprendiendo
             </h1>
             <img src="images/image.png" width="250" />
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (proyectos)</h2>
-            <article>
-                <h3>Análisis de Sistemas Informáticos</h3>
-                <h6>Novocap - Innovación farmacéutica</h6>
+            <article class="project">
+                <h3 class="project-title">Análisis de Sistemas Informáticos</h3>
+                <h6 class="project-subtitle">Novocap - Innova ción farmacéutica</h6>
                 <small>
-                        <p><strong>Fecha: 03/07/2017</strong></p>
-                        <p>Puedes verlo en: <strong>www.novocap.com</strong></p>
-                        <p><strong>Novocap</strong> es un laboratorio farmacéutico</p>
+                        <p class="project-date"><strong>Fecha: 03/07/2017</strong></p>
+                        <p class="project-url">Puedes verlo en: <strong>www.novocap.com</strong></p>
+                        <p class="project-description"><strong>Novocap</strong> es un laboratorio farmacéutico</p>
+
+                        <figure class="project-imageContainer">
+                            <img class="project-image" src="images/logo-novocap.png" width="250" />
+                        </figure>
                 </small>
             </article>
         </section>
         <section id="experiencia">
             <h2>Tecnicatura en Programación</h2>
-            <article>
-                <h3>Universidad Tecnológica Nacional</h3>
-                <figure>
-                        <img src="images/UTN (1).png" width="250">
+            <article class="experience">
+                <h3 class="experience-title">Universidad Tecnológica Nacional</h3>
+                <figure class="experience-imageContainer">
+                        <img class="experience-image" src="images/UTN (1).png" width="250">
                     </figure>
-                <p>La universidad de programación con mas prestigio en toda la Argentina</p>
-                <a href="http://www.sistemas-utnfra.com.ar/#/home" target="_blank">Ver web de la universidad</a>
+                <p class="experience-description">La universidad de programación con mas prestigio en toda la Argentina</p>
+                <a class="experience-url" href="http://www.sistemas-utnfra.com.ar/#/home" target="_blank">Ver web de la universidad</a>
             </article>
         </section>
-        <section id="contacto">
-            <form action="/suscripcion/">
+        <section id="contacto" class="contact">
+            <form class="form-email" action="/suscripcion/">
                 <h3>¿Quieres contactarte con el Webmaster?</h3>
                 <input type="text" placeholder="Dejame tu email" id="email">
                 <input type="submit" />
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
     </body>
 </html>
