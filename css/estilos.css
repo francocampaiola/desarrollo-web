@@ -20,15 +20,12 @@ h1
     justify-content: center;
 }
 
-/* h1 strong
-{
-    color: red;
-} */
-
 .portfolio
 {
     background: #fafafa;
+    display: flex;
 }
+
 .hero
 {
     height: 150px;
@@ -53,16 +50,43 @@ h1
     margin: 10px;
     padding: 20px;
     display: flex;
+    width: 250px;
+    justify-content: center;
 }
 
-.project-imageContainer
+.tituloHero
 {
-    width: 500px;
+    margin: 0px;
+    border: none;
+    height: 150px;
+    width: 600px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tituloPortafolio
+{
+    border: none;
+    width: auto;
+    justify-content: center;
+    display: flex;
 }
 
 .project-details
 {
-    width: 500px;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-justify: auto;
+    display: auto;
+}
+
+.project-image
+{
+    width: 141px;
+    height: 77px;
 }
 
 .header
@@ -144,4 +168,20 @@ figure
 {
     margin-left: 25px;
     margin-right: 25px;
+    height: auto;   
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a
+{
+    margin-right: 25px;
+    margin: 0;
+    text-decoration: none;
+    height: inherit;
+    color: white;
+    text-decoration-style: initial;
+    align-items: center;
+    justify-content: center;
 }
