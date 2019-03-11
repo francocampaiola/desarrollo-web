@@ -18,81 +18,16 @@ h1
     letter-spacing: -2px;
     color: white;
     justify-content: center;
-}
-
-.portfolio
-{
-    background: #fafafa;
     display: flex;
 }
 
-.hero
+h2
 {
-    height: 150px;
-    margin-bottom: 0;
-    background-image: url('../images/imagenPortada.png');
-    background-size: 800px 450px;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: right;
-    background-color: #39393d;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-top: 0px;
-    padding: 10px;
-}
-
-.project
-{
-    border: 1px solid grey;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    width: 250px;
-    justify-content: center;
-}
-
-.tituloHero
-{
-    margin: 0px;
-    border: none;
-    height: 150px;
-    width: 600px;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.tituloHeader
-{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-}
-
-.tituloPortafolio
-{
-    border: none;
-    width: auto;
-    justify-content: center;
-    display: flex;
-}
-
-.project-details
-{
-    width: auto;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    text-justify: auto;
-    display: auto;
-}
-
-.project-image
-{
-    width: 141px;
-    height: 77px;
+    text-transform: uppercase; 
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .header
@@ -123,15 +58,8 @@ h1
     align-items: center;
     height: inherit;
     padding: 0 10px;
-}
-
-.logo
-{
-    size: 150px;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 10px;
+    color: white;
+    text-decoration: none;
 }
 
 .menu
@@ -147,13 +75,98 @@ ol, ul
 
 figure
 {
+    margin-right: 25px;
+    margin-left: 10px;
+    position: center;
+    align-items: center;
+}
+
+.tituloHero
+{
+    margin: 0px;
+    border: none;
+    height: inherit;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.hero
+{
+    height: 10  0px;
+    background-image: url('../images/imagenPortada.png');
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-color: #39393d;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding: 10px;
     margin: 0;
 }
 
-.header a
+.project
 {
-    color: white;
-    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title
+{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.project-description
+{
+    font-size: 20px;
+}
+
+.project strong
+{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-details
+{
+    width: 500px;
+}
+
+.project-imageContainer
+{
+    display: flex;
+}
+
+.project-image
+{
+    width: 150px;
+    height: 77px;
+}
+
+.tituloPortafolio
+{
+    border: none;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.portfolio
+{
+    background: #fafafa;
+    padding: 20px;
+}
+
+.tituloHeader
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
 }
 
 .footer
