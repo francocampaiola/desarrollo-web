@@ -265,4 +265,66 @@ figure
     height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.form-email input
+{
+    border-color: gray;
+    padding: 10px 20px 10px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url('../images/envelope-email-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 15px 15px;
+    background-position-x: 5px;
+}
+
+.form-email button
+{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    /* margin: 10px auto 0; */
+}
+
+.form-email h3
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social
+{
+}
+
+.social-link
+{
+    display: inline-block;
+    margin: 0px 0px 10px 10px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter
+{
+    background-image: url('../images/twitter_white.svg');
+}
+.social-link.facebook
+{
+    background-image: url('../images/facebook-light_White.png');
+}
+.social-link.github
+{
+    background-image: url('../images/github-icon-white-6.jpg');
+}
+.social-link.instagram
+{
+    background-image: url('../images/instagram\ white.png');
 }
