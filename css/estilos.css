@@ -204,3 +204,65 @@ figure
     align-items: center;
     justify-content: center;
 }
+
+.experience-list-title
+{
+    margin-left: 20px;
+}
+
+.experience {
+    margin: 10px;
+    width: 480px;
+    border-radius: 15px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff
+}
+
+.experience-list
+{
+    display: flex;
+}
+
+.experience img
+{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experience-detail
+{
+    margin: 20px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.experience-description
+{
+    text-align: left;
+}
+
+.experience-url
+{
+    border: 1px solid #056fff;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #056fff;
+}
+
+.contact
+{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
