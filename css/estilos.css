@@ -67,6 +67,18 @@ h2
     height: inherit;
 }
 
+.menu a:hover
+{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-link:hover
+{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
 ol, ul
 {
     margin: 0;
@@ -305,6 +317,13 @@ figure
     border-radius: 5px;
     width: 100px;
     /* margin: 10px auto 0; */
+}
+
+.form-email button:hover
+{
+    background-color: white;
+    color: #056fff;
+    transition: all 0.3s ease-in-out;
 }
 
 .form-email h3
